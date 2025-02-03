@@ -13,7 +13,7 @@
 
 ## 交流群组
 
-Telegram 群：<https://t.me/Bill_999>
+Telegram ：<https://t.me/Bill_999>
 
 ## 安装方式
 
@@ -35,7 +35,8 @@ Telegram 群：<https://t.me/Bill_999>
 
 ```bash
 rm -rf /home/mtproxy && mkdir /home/mtproxy && cd /home/mtproxy
-curl -fsSL -o mtproxy.sh https://github.com/ellermister/mtproxy/raw/master/mtproxy.sh
+curl -O https://raw.githubusercontent.com/Sunny8886667/mtproxy/master/mtproxy.sh
+chmod +x mtproxy.sh
 bash mtproxy.sh
 ```
 
