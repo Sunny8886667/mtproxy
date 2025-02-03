@@ -324,7 +324,7 @@ do_config_mtp() {
         	echo ""
 	    echo "***********************"
 	    echo "*      欢迎使用！      *"
-	    echo "*Telegram：@Bill_999   *"
+	    echo "* Telegram：@Bill_999 *"
 	    echo "**********************"
         echo ""
         echo -e "请输入要安装的程序版本"
