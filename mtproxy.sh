@@ -322,7 +322,7 @@ do_config_mtp() {
     while true; do
         default_provider=1
         echo -e "请输入要安装的程序版本"
-        echo -e "使用问题请联系：@Bill_999  公益代理分享：MTProto_cn1"
+        echo -e "${GREEN}使用问题请联系：@Bill_999  公益代理分享：MTProto_cn1${NC}"
         echo -e "1. Telegram 官方版本 (C语言, 存在一些问题, 只支持 x86_64)"
         echo -e "2. 9seconds 第三方版本(兼容性强)"
 
