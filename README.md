@@ -13,7 +13,7 @@
 
 ## 交流群组
 
-Telegram 群组：<https://t.me/EllerHK>
+Telegram 群：<https://t.me/Bill_999>
 
 ## 安装方式
 
