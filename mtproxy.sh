@@ -322,6 +322,7 @@ do_config_mtp() {
     while true; do
         default_provider=1
         echo -e "请输入要安装的程序版本"
+        echo -e "使用问题请联系：@Bill_999  公益代理分享：MTProto_cn1"
         echo -e "1. Telegram 官方版本 (C语言, 存在一些问题, 只支持 x86_64)"
         echo -e "2. 9seconds 第三方版本(兼容性强)"
 
@@ -464,6 +465,7 @@ info_mtp() {
         echo -e "MTProxy Secret:  \033[31m$client_secret\033[0m"
         echo -e "TG一键链接: https://t.me/proxy?server=${public_ip}&port=${port}&secret=${client_secret}"
         echo -e "TG一键链接: tg://proxy?server=${public_ip}&port=${port}&secret=${client_secret}"
+        echo -e "使用问题请联系：@Bill_999  公益代理分享：MTProto_cn1"
     else
         echo -e "TMProxy+TLS代理: \033[33m已停止\033[0m"
     fi
@@ -621,6 +623,7 @@ else
         echo "MTProxyTLS一键安装运行绿色脚本"
         print_line
         echo -e "检测到您的配置文件不存在, 为您指引生成!" && print_line
+        echo -e "使用问题请联系：@Bill_999  公益代理分享：MTProto_cn1"
 
         do_install_basic_dep
         do_config_mtp
@@ -641,5 +644,6 @@ else
         echo -e "\t停止服务\t bash $0 stop"
         echo -e "\t重启服务\t bash $0 restart"
         echo -e "\t重新安装代理程序 bash $0 reinstall"
+        echo -e "使用问题请联系：@Bill_999  公益代理分享：MTProto_cn1"
     fi
 fi
