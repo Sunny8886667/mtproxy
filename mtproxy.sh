@@ -321,6 +321,12 @@ do_config_mtp() {
 
     while true; do
         default_provider=1
+        	echo ""
+	    echo "***********************"
+	    echo "*      欢迎使用！      *"
+	    echo "*Telegram：@Bill_999   *"
+	    echo "**********************"
+        echo ""
         echo -e "请输入要安装的程序版本"
         echo -e "${GREEN}使用问题请联系：@Bill_999  公益代理分享：MTProto_cn1${NC}"
         echo -e "1. Telegram 官方版本 (C语言, 存在一些问题, 只支持 x86_64)"
